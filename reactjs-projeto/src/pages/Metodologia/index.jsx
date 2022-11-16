@@ -86,7 +86,7 @@ export default function Metodologia() {
                 </div>
                 <div className="col-lg-4 col-md-6 mb-5">
                     <div className="position-relative mb-4">
-                        <img className="img-fluid rounded w-100" src={leitura1} alt=""/>
+                        <img className="img-fluid rounded w-100" src={Leitura1} alt=""/>
                     </div>
                     <div className="d-flex mb-2">
                         <a className="btn btn-primary mt-3 py-2 px-4" href="https://www.portugues.com.br/redacao/tecnicas-leitura-como-memorizar-que-voce-le.html">Leitura e Memorização</a>
@@ -120,7 +120,7 @@ export default function Metodologia() {
                         <img className="img-fluid rounded w-100" src={Evoluir} alt=""/>
                     </div>
                     <div className="d-flex mb-2">
-                        <a className="btn btn-primary mt-3 py-2 px-4" href="">Ranking e Desempenho</a>
+                        <a className="btn btn-primary mt-3 py-2 px-4" >Ranking e Desempenho</a>
                     </div>
                     <h5 className="font-weight-medium mb-2">Acompanhe evolução, notas e atividades</h5>
                     <p className="mb-4">Detalhes da sua evolução, média da nota e pontos de melhoria</p>
@@ -130,7 +130,7 @@ export default function Metodologia() {
                         <img className="img-fluid rounded w-100" src={Premios} alt=""/>
                     </div>
                     <div className="d-flex mb-2">
-                        <a className="btn btn-primary mt-3 py-2 px-4" href="">Prêmios e Incentivos</a>
+                        <a className="btn btn-primary mt-3 py-2 px-4" >Prêmios e Incentivos</a>
                     </div>
                     <h5 className="font-weight-medium mb-2">Evolua sua notas e ganhe pontos</h5>
                     <p className="mb-4">Aumente seu desempenho nas atividades e tenha acesso à bônus exclusivos.</p>
