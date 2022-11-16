@@ -7,27 +7,25 @@ import Home from "./pages/Home";
 import Metodologia from "./pages/Metodologia";
 import QuemSomos from "./pages/QuemSomos";
 import Contato from "./pages/Contato";
-
+import Videos from "./pages/Metodologia";
 
 export default function Rotas(){
     return(
         <BrowserRouter>
      <Header/>
-     <Footer/>
-     <Home/>
-     <Metodologia/>
-     <QuemSomos/>
-     <Contato/>
+     
+     
       <Routes>
-  
-    <Route path='/' element={​​​​​<Home/>}/>​​​​​
+    <Route path="/" element={<Home/>}/>
    
-    <Route path='/Metodologia'element={​​​​​<Metodologia/>}/>​​​​​
-    <Route path='/QuemSomos' element={​​​​​<QuemSomos/>}/>​​​​​
-    <Route path='/Contato' element={​​​​​<Passagens/>}/>​​​​​
+   <Route path="/Metodologia" element={<Metodologia/>}/>
+    <Route path="/QuemSomos" element={<QuemSomos/>}/>
+    <Route path="/Contato" element={<Contato/>}/>
+    <Videos/>
+   
    
   </Routes>
-   
+  <Footer/>
     </BrowserRouter>
    
     );

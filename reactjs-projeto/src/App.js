@@ -1,10 +1,10 @@
-
-
+import React from "react";
+import Rotas from "./Rotas";
 
 function App() {
   return (
     <div className="App">
-      <h2>Testando</h2>
+     <Rotas/>
     </div>
   );
 }

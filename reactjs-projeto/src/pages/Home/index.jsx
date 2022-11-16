@@ -2,17 +2,17 @@ import React from "react";
 
 import Carousel1 from "../../assets/img/carousel1.png";
 import Carousel2 from "../../assets/img/carousel2.png";
-import Carousel3 from "../../assets/img/Carousel3.png";
-import Metodo12 from "../../assets/img/Metodo12.png";
-import Metodo13 from "../../assets/img/Metodo13.png";
-import Metodo10 from "../../assets/img/Metodo10.png";
-import Metodo9 from "../../assets/img/Metodo9.png";
-import Metodo7 from "../../assets/img/Metodo7.png";
-import Metodo8 from "../../assets/img/Metodo8.png";
-import FotoBete from "../../assets/img/FotoBete.jpeg";
-import FotoLeila from "../../assets/img/FotoLeila.jpg";
-import FotoThiago from "../../assets/img/FotoThiago.jpg";
-import FotoLu from "../../assets/img/FotoLu.jpg";
+import Carousel3 from "../../assets/img/carousel3.png";
+import Metodo12 from "../../assets/img/metodo12.png";
+import Metodo13 from "../../assets/img/metodo13.png";
+import Metodo10 from "../../assets/img/metodo10.png";
+import Metodo9 from "../../assets/img/metodo9.png";
+import Metodo7 from "../../assets/img/metodo7.png";
+import Metodo8 from "../../assets/img/metodo8.png";
+import FotoBete from "../../assets/img/fotobete.jpeg";
+import FotoLeila from "../../assets/img/fotoleila.jpg";
+import FotoThiago from "../../assets/img/fotothiago.jpg";
+import FotoLu from "../../assets/img/fotolu.jpg";
 
 export default function Home(){
     return(
@@ -262,6 +262,7 @@ export default function Home(){
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
 
     )

@@ -60,7 +60,7 @@ export default function Contato() {
                             <div className="position-relative h-100 rounded overflow-hidden">
                                 <iframe style="width: 100%; height: 100%; object-fit: cover;"
                                     src="./minhas-imagens/vetor/contato2.png"
-                                    frameborder="0" stilo="border:0;" allowfullscreen="" aria-hidden="false"
+                                    frameborder="0" className="border:0;" allowfullscreen="" aria-hidden="false"
                                     tabindex="0"></iframe>
                             </div>
                         </div>

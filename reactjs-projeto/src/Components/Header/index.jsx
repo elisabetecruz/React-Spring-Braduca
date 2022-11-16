@@ -1,5 +1,5 @@
 import React from "react";
-
+import {Link} from "react-router-dom";
   export default function Header(){
     return(
     <div className="container-fluid">
@@ -38,7 +38,7 @@ import React from "react";
                         </div>
                     </div>
                 </div>
-                <nav className="navbar navbar-expand-lg bg-white navbar-light p-0">
+                <div className="navbar navbar-expand-lg bg-white navbar-light p-0">
                     <a href="" className="navbar-brand d-block d-lg-none">
                         <h1 className="m-0 display-4 text-primary"></h1>
                     </a>
@@ -50,16 +50,20 @@ import React from "react";
                     </div>
                     <div className="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div className="navbar-nav mr-auto py-0">
-                            <a href="index.html" className="nav-item nav-link active">Home</a>
-                            <a href="./quemsomos.html" className="nav-item nav-link">Sobre Nós</a>
-                            <a href="metodologia.html" className="nav-item nav-link">Metodologia</a>
-                            <div className="nav-item dropdown">
-                            </div>
-                            <a href="contato.html" className="nav-item nav-link">Contato</a>
-                </nav>
+                            
+                            <Link to="/" className="nav-item nav-link active">Home</Link>
+                            <Link to="/QuemSomos" className="nav-item nav-link active"></Link>
+                           <Link to="/Metodologia" className="nav-item nav-link"></Link>
+                            <Link to="/Contato" className="nav-item nav-link"></Link>
+                           
+                            
+                </div>
             </div>
         </div>
     </div>
+    </div>
+    </div>
+    
         
     
     

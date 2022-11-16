@@ -1,10 +1,11 @@
 import React from "react";
-import Leitura1 from "../../assets/img/leitura1/png";
-import Evoluir from "../../assets/img/evoluir/png";
-import Memoria from "../../assets/img/memoria/png";
-import Metodo3 from "../../assets/img/metodo3/png";
-import Video from "../../assets/img/video/png";
-import Premios from "../../assets/img/premios/png";
+import Leitura1 from "../../assets/img/leitura1.png";
+import Evoluir from "../../assets/img/evoluir.png";
+import Memoria from "../../assets/img/memoria.png";
+import Metodo3 from "../../assets/img/metodo3.png";
+import Video from "../../assets/img/video.png";
+import Premios from "../../assets/img/premios.png";
+import Quiz from "../../assets/img/quiz.png";
 
 export default function Metodologia() {
     return (
@@ -70,47 +71,75 @@ export default function Metodologia() {
                                 desenvolvimento do nosso senso crítico.</h5>
                         </div>
                     </div>
-                   
-                        <div classeName="col-lg-4 col-md-6 mb-5">
-                            <div classeName="position-relative mb-4">
-                                <img classeName="img-fluid rounded w-100" src={Metodo3} alt=""/>
-                            </div>
-                            <div classeName="d-flex mb-2">
-                                <a classeName="text-secondary text-uppercase font-weight-medium" href="">Leitura</a>
-                                <span classeName="text-primary px-2">|</span>
-                                <a classeName="text-secondary text-uppercase font-weight-medium" href="">Memorização</a>
-                            </div>
-                            <h5 classeName="font-weight-medium mb-2">Prática da leitura</h5>
-                            <p classeName="mb-4">Intrução da rotina da leitura no dia a dia com textos de fácil entendimento.</p>
-                        </div>
-                        <div classeName="col-lg-4 col-md-6 mb-5">
-                            <div classeName="position-relative mb-4">
-                                <img classeName="img-fluid rounded w-100" src={Video} alt=""/>
-                            </div>
-                            <div classeName="d-flex mb-2">
-                                <a classeName="text-secondary text-uppercase font-weight-medium" href="">Vídeos</a>
-                                <span classeName="text-primary px-2">|</span>
-                                <a classeName="text-secondary text-uppercase font-weight-medium" href="">Reels</a>
-                            </div>
-                            <h5 classeName="font-weight-medium mb-2">Vídeos curtos de Lingua Portuguesa</h5>
-                            <p classeName="mb-4">Usando conteúdo gratuito de qualidade, vamos usar a diversão a nosso favor.</p>
-                        </div>
-                        
-                        <div classeName="col-lg-4 col-md-6 mb-5">
-                            <div classeName="position-relative mb-4">
-                                <img classeName="img-fluid rounded w-100" src={Premios} alt=""/>
-                            </div>
-                            <div classeName="d-flex mb-2">
-                                <a classeName="text-secondary text-uppercase font-weight-medium" href="">Prêmios</a>
-                                <span classeName="text-primary px-2">|</span>
-                                <a classeName="text-secondary text-uppercase font-weight-medium" href="">Incentivos</a>
-                            </div>
-                            <h5 classeName="font-weight-medium mb-2">Evolua sua notas e ganhe pontos</h5>
-                            <p classeName="mb-4">Aumente seu desempenho nas atividades e tenha acesso à bônus exclusivos.</p>
-                        </div>
+                    <div className="row">
+                <div className="col-lg-4 col-md-6 mb-5">
+                    <div className="position-relative mb-4">
+                        <img className="img-fluid rounded w-100" src={Quiz} alt=""/>
+
                     </div>
+                    <div className="d-flex mb-2">
+                        <a className="btn btn-primary mt-3 py-2 px-4" href="https://pt.quizur.com/trivia/teste-de-portugues-3xev">Testes e Quiz</a>
+                    </div>
+                    <h5 className="font-weight-medium mb-2">Testes dinâmicos </h5>
+                    <p className="mb-4">Na educação a avaliação faz parte das atividades escolares e é de extrema
+                        importância para o processo formativo do aluno.</p>
                 </div>
+                <div className="col-lg-4 col-md-6 mb-5">
+                    <div className="position-relative mb-4">
+                        <img className="img-fluid rounded w-100" src={leitura1} alt=""/>
+                    </div>
+                    <div className="d-flex mb-2">
+                        <a className="btn btn-primary mt-3 py-2 px-4" href="https://www.portugues.com.br/redacao/tecnicas-leitura-como-memorizar-que-voce-le.html">Leitura e Memorização</a>
+                    </div>
+                    <h5 className="font-weight-medium mb-2">Prática da leitura</h5>
+                    <p className="mb-4">Intrução da rotina da leitura no dia a dia com textos de fácil entendimento.</p>
+                </div>
+                <div className="col-lg-4 col-md-6 mb-5">
+                    <div className="position-relative mb-4">
+                        <img className="img-fluid rounded w-100" src={Video} alt=""/>
+                    </div>
+                    <div className="d-flex mb-2">
+                        <a className="btn btn-primary mt-3 py-2 px-4" href="videoscurtos.html">Vídeos Curtos</a>
+                        </div>
+                    <h5 className="font-weight-medium mb-2">Vídeos curtos de Lingua Portuguesa</h5>
+                    <p className="mb-4">Usando conteúdo gratuito de qualidade, vamos usar a diversão a nosso favor.</p>
+
+                </div>
+                <div className="col-lg-4 col-md-6 mb-5">
+                    <div className="position-relative mb-4">
+                        <img className="img-fluid rounded w-100" src={Metodo3} alt=""/>
+                    </div>
+                    <div className="d-flex mb-2">
+                        <a className="btn btn-primary mt-3 py-2 px-4" href="https://www.linguaportuguesa.blog.br/">Blog e Interação</a>
+                    </div>
+                    <h5 className="font-weight-medium mb-2">Comunicação é a base</h5>
+                    <p className="mb-4">Alunos e professores interagem pelo blog da plataforma</p>
+                </div>
+                <div className="col-lg-4 col-md-6 mb-5">
+                    <div className="position-relative mb-4">
+                        <img className="img-fluid rounded w-100" src={Evoluir} alt=""/>
+                    </div>
+                    <div className="d-flex mb-2">
+                        <a className="btn btn-primary mt-3 py-2 px-4" href="">Ranking e Desempenho</a>
+                    </div>
+                    <h5 className="font-weight-medium mb-2">Acompanhe evolução, notas e atividades</h5>
+                    <p className="mb-4">Detalhes da sua evolução, média da nota e pontos de melhoria</p>
+                </div>
+                <div className="col-lg-4 col-md-6 mb-5">
+                    <div className="position-relative mb-4">
+                        <img className="img-fluid rounded w-100" src={Premios} alt=""/>
+                    </div>
+                    <div className="d-flex mb-2">
+                        <a className="btn btn-primary mt-3 py-2 px-4" href="">Prêmios e Incentivos</a>
+                    </div>
+                    <h5 className="font-weight-medium mb-2">Evolua sua notas e ganhe pontos</h5>
+                    <p className="mb-4">Aumente seu desempenho nas atividades e tenha acesso à bônus exclusivos.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+                </>
                 
-            </div></>
+            
     )
 }
