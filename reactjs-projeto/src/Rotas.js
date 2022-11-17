@@ -7,7 +7,8 @@ import Home from "./pages/Home";
 import Metodologia from "./pages/Metodologia";
 import QuemSomos from "./pages/QuemSomos";
 import Contato from "./pages/Contato";
-import Videos from "./pages/Metodologia";
+import Formulario from "./pages/Formulario";
+
 
 
 
@@ -21,7 +22,8 @@ export default function Rotas(){
     <Route path="/Metodologia" element={<Metodologia/>}/>
     <Route path="/QuemSomos" element={<QuemSomos/>}/>
     <Route path="/Contato" element={<Contato/>}/>
-    <Route path="/Videos" element={<Videos/>}/>
+    <Route path="/Formulario" element={<Formulario/>}/>
+    
     
    </Routes>
    <Footer/>
