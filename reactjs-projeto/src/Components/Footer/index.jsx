@@ -34,20 +34,20 @@ export default function Footer(){
                 <div className="col-lg-3 col-md-6 mb-5">
                     <h4 className="font-weight-semi-bold text-primary mb-4">Links Rápidos</h4>
                     <div className="d-flex flex-column justify-content-start">
-                        <a className="text-white mb-2" href="#"><i className="fa fa-angle-right mr-2"></i>Home</a>
-                        <a className="text-white mb-2" href="#"><i className="fa fa-angle-right mr-2"></i>Sobre Nós</a>
-                        <a className="text-white mb-2" href="#"><i className="fa fa-angle-right mr-2"></i>Metodologia</a>
-                        <a className="text-white mb-2" href="#"><i className="fa fa-angle-right mr-2"></i>Equipe</a>
-                        <a className="text-white" href="#"><i className="fa fa-angle-right mr-2"></i>Contato</a>
+                        <div className="text-white mb-2" ><i className="fa fa-angle-right mr-2"></i>Home</div>
+                        <div className="text-white mb-2" ><i className="fa fa-angle-right mr-2"></i>Sobre Nós</div>
+                        <div className="text-white mb-2" ><i className="fa fa-angle-right mr-2"></i>Metodologia</div>
+                        <div className="text-white mb-2" ><i className="fa fa-angle-right mr-2"></i>Equipe</div>
+                        <div className="text-white" ><i className="fa fa-angle-right mr-2"></i>Contato</div>
                     </div>
                 </div>
                 <div className="col-lg-3 col-md-6 mb-5">
                     <h4 className="font-weight-semi-bold text-primary mb-4">Newsletter</h4>
                     <p>Inscreva-se na nossa Newsletter para ficar sabendo de tudo que estamos trazendo de novidade para
-                        nossa plataforma ;)</p>
+                        nossa plataforma ;</p>
                     <div className="w-100">
                         <div className="input-group">
-                            <input type="text" className="form-control border-0" style="padding: 25px;" placeholder="Seu Email" />
+                            <input type="text" className="form-control border-0" style={{padding: "25px;"}} placeholder="Seu Email" />
                             <div className="input-group-append">
                                 <button className="btn btn-primary px-4">Quero Me Increver</button>
                             </div>
@@ -55,29 +55,15 @@ export default function Footer(){
                     </div>
                 </div>
             </div>
-        </div><div class="container-fluid bg-dark text-white border-top py-4 px-sm-3 px-md-5"
-            style="border-color: #3E3E4E !important;">
-                <div class="row">
-                    <div class="col-lg-6 text-center text-md-left mb-3 mb-md-0">
-                        <p class="m-0 text-white">&copy; <a href="#">Braduca+</a>. Todos os direitos reservados.
-                        </p>
+        </div>
+        <div className="container-fluid bg-dark text-white border-top py-4 px-sm-3 px-md-5"
+            style={{border :" #3E3E4E "}}>
+                <div className="row">
+                    <div className="col-lg-6 text-center text-md-left mb-3 mb-md-0">
+                        <div className="m-0 text-white">&copy; <p >Braduca+</p>. Todos os direitos reservados.
+                        </div>
                     </div>
-                    <div class="col-lg-6 text-center text-md-right">
-                        <ul class="nav d-inline-flex">
-                            <li class="nav-item">
-                                <a class="nav-link text-white py-0" href="#">Privacidade</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white py-0" href="#">Termos</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white py-0" href="#">FAQs</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white py-0" href="#">Ajuda</a>
-                            </li>
-                        </ul>
-                    </div>
+                   
                 </div>
             </div></>
     )

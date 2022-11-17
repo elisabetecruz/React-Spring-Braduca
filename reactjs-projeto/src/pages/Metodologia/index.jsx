@@ -31,7 +31,7 @@ export default function Metodologia() {
                                 <div
                                     className="d-flex flex-column align-items-center text-center bg-light rounded overflow-hidden pt-4">
                                     <div className="icon-box bg-light text-secondary shadow mt-2 mb-4">
-                                        <i className="fas fa-book-open" style="font-size:36px"></i>
+                                        <i className="fas fa-book-open" style={{font:"36px"}}></i>
                                     </div>
                                     <h5 className="font-weight-bold mb-4 px-4">Leitura Dinâmica</h5>
                                     <img src={Leitura1} alt="leitura" />
@@ -39,7 +39,7 @@ export default function Metodologia() {
                                 <div
                                     className="d-flex flex-column align-items-center text-center bg-light rounded overflow-hidden pt-4">
                                     <div className="icon-box bg-light text-secondary shadow mt-2 mb-4">
-                                        <i className="fas fa-brain" style="font-size:36px"></i>
+                                        <i className="fas fa-brain" style={{font:"36px"}}></i>
                                     </div>
                                     <h5 className="font-weight-bold mb-4 px-4">Memorização</h5>
                                     <img src={Memoria} alt="" />
@@ -50,7 +50,7 @@ export default function Metodologia() {
                                         <i className="fa fa-2x fa-spa"></i>
                                     </div>
                                     <h5 className="font-weight-bold mb-4 px-4">Evolução Pessoal</h5>
-                                    <img src={Evoluir} alt="" />
+                                    <img src={Evoluir} alt="imagem" />
                                 </div>
                             </div>
                         </div>
@@ -74,7 +74,7 @@ export default function Metodologia() {
                     <div className="row">
                 <div className="col-lg-4 col-md-6 mb-5">
                     <div className="position-relative mb-4">
-                        <img className="img-fluid rounded w-100" src={Quiz} alt=""/>
+                        <img className="img-fluid rounded w-100" src={Quiz} alt="quiz imagem"/>
 
                     </div>
                     <div className="d-flex mb-2">
@@ -86,7 +86,7 @@ export default function Metodologia() {
                 </div>
                 <div className="col-lg-4 col-md-6 mb-5">
                     <div className="position-relative mb-4">
-                        <img className="img-fluid rounded w-100" src={Leitura1} alt=""/>
+                        <img className="img-fluid rounded w-100" src={Leitura1} alt="imagem leitura"/>
                     </div>
                     <div className="d-flex mb-2">
                         <a className="btn btn-primary mt-3 py-2 px-4" href="https://www.portugues.com.br/redacao/tecnicas-leitura-como-memorizar-que-voce-le.html">Leitura e Memorização</a>
@@ -96,7 +96,7 @@ export default function Metodologia() {
                 </div>
                 <div className="col-lg-4 col-md-6 mb-5">
                     <div className="position-relative mb-4">
-                        <img className="img-fluid rounded w-100" src={Video} alt=""/>
+                        <img className="img-fluid rounded w-100" src={Video} alt="videos"/>
                     </div>
                     <div className="d-flex mb-2">
                         <a className="btn btn-primary mt-3 py-2 px-4" href="videoscurtos.html">Vídeos Curtos</a>
@@ -107,7 +107,7 @@ export default function Metodologia() {
                 </div>
                 <div className="col-lg-4 col-md-6 mb-5">
                     <div className="position-relative mb-4">
-                        <img className="img-fluid rounded w-100" src={Metodo3} alt=""/>
+                        <img className="img-fluid rounded w-100" src={Metodo3} alt="imagem"/>
                     </div>
                     <div className="d-flex mb-2">
                         <a className="btn btn-primary mt-3 py-2 px-4" href="https://www.linguaportuguesa.blog.br/">Blog e Interação</a>
@@ -117,20 +117,20 @@ export default function Metodologia() {
                 </div>
                 <div className="col-lg-4 col-md-6 mb-5">
                     <div className="position-relative mb-4">
-                        <img className="img-fluid rounded w-100" src={Evoluir} alt=""/>
+                        <img className="img-fluid rounded w-100" src={Evoluir} alt="imagem"/>
                     </div>
                     <div className="d-flex mb-2">
-                        <a className="btn btn-primary mt-3 py-2 px-4" >Ranking e Desempenho</a>
+                        <button className="btn btn-primary mt-3 py-2 px-4" >Ranking e Desempenho</button>
                     </div>
                     <h5 className="font-weight-medium mb-2">Acompanhe evolução, notas e atividades</h5>
                     <p className="mb-4">Detalhes da sua evolução, média da nota e pontos de melhoria</p>
                 </div>
                 <div className="col-lg-4 col-md-6 mb-5">
                     <div className="position-relative mb-4">
-                        <img className="img-fluid rounded w-100" src={Premios} alt=""/>
+                        <img className="img-fluid rounded w-100" src={Premios} alt="premios"/>
                     </div>
                     <div className="d-flex mb-2">
-                        <a className="btn btn-primary mt-3 py-2 px-4" >Prêmios e Incentivos</a>
+                        <button className="btn btn-primary mt-3 py-2 px-4" >Prêmios e Incentivos</button>
                     </div>
                     <h5 className="font-weight-medium mb-2">Evolua sua notas e ganhe pontos</h5>
                     <p className="mb-4">Aumente seu desempenho nas atividades e tenha acesso à bônus exclusivos.</p>

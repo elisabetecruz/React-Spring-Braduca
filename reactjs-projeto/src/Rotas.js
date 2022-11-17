@@ -9,24 +9,23 @@ import QuemSomos from "./pages/QuemSomos";
 import Contato from "./pages/Contato";
 import Videos from "./pages/Metodologia";
 
+
+
 export default function Rotas(){
     return(
-        <BrowserRouter>
+  <BrowserRouter>
      <Header/>
-     
-     
-      <Routes>
-    <Route path="/" element={<Home/>}/>
+     <Routes>
+     <Route path="/" element={<Home/>}/>
    
-   <Route path="/Metodologia" element={<Metodologia/>}/>
+    <Route path="/Metodologia" element={<Metodologia/>}/>
     <Route path="/QuemSomos" element={<QuemSomos/>}/>
     <Route path="/Contato" element={<Contato/>}/>
-    <Videos/>
-   
-   
-  </Routes>
-  <Footer/>
-    </BrowserRouter>
+    <Route path="/Videos" element={<Videos/>}/>
+    
+   </Routes>
+   <Footer/>
+  </BrowserRouter>
    
     );
    

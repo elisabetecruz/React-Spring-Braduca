@@ -3557,7 +3557,7 @@
     display: block;
     min-height: 1.5rem;
     padding-left: 1.5rem;
-    color-adjust: exact;
+    
   }
   
   .custom-control-inline {
@@ -6090,9 +6090,9 @@
     color: #777777;
   }
   
-  .carousel {
+ .carousel {
     position: relative;
-  }
+  } 
   
   .carousel.pointer-event {
     touch-action: pan-y;

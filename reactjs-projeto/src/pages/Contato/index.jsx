@@ -56,12 +56,12 @@ export default function Contato() {
                                 </form>
                             </div>
                         </div>
-                        <div className="col-lg-5" style="min-height: 400px;">
+                        <div className="col-lg-5" style={{minheight:" 400px;"}}>
                             <div className="position-relative h-100 rounded overflow-hidden">
-                                <iframe style="width: 100%; height: 100%; object-fit: cover;"
+                                <span style={{width: "100%; height: 100%; object-fit: cover;"}}
                                     src="./minhas-imagens/vetor/contato2.png"
                                     frameborder="0" className="border:0;" allowfullscreen="" aria-hidden="false"
-                                    tabindex="0"></iframe>
+                                    tabindex="0"></span>
                             </div>
                         </div>
                     </div>

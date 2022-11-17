@@ -25,9 +25,9 @@ export default function Home(){
             </ol>
             <div ClassName ="carousel-inner">
             <div ClassName="carousel-item active">
-                <img ClassName="img-fluid" src={Carousel1} alt="Image" />
+                <img ClassName="img-fluid" src={Carousel1} alt="estudantes" />
                 <div ClassName="carousel-caption d-flex align-items-center justify-content-center">
-                    <div ClassName="p-5" style="width: 100%; max-width: 900px;">
+                    <div ClassName="p-5" style={{width:" 100%;", max: "900px;"}}>
                         <h5 ClassName="text-primary text-uppercase mb-md-3">Sistema de Educação Continuada</h5>
                         <h1 ClassName="display-3 text-white mb-md-4">Uma Imersão no Conhecimento Eficaz</h1>
                     </div>
@@ -35,18 +35,18 @@ export default function Home(){
             </div>
 
             <div ClassName="carousel-item">
-                <img ClassName="img-fluid" src={Carousel2} alt="Image" />
+                <img ClassName="img-fluid" src={Carousel2} alt="livros" />
                 <div ClassName="carousel-caption d-flex align-items-center justify-content-center">
-                    <div ClassName="p-5" style="width: 100%; max-width: 900px;">
+                    <div ClassName="p-5" style={{width: "100%;", max:" 900px;"}}>
                         <h5 ClassName="text-primary text-uppercase mb-md-3">Sistema de Educação Continuada</h5>
                         <h1 ClassName="display-3 text-white mb-md-4">Uma Imersão no Conhecimento Eficaz</h1>
                     </div>
                 </div>
             </div>
             <div ClassName="carousel-item">
-                <img ClassName="img-fluid" src={Carousel3} alt="Image" />
+                <img ClassName="img-fluid" src={Carousel3} alt="pessoa" />
                 <div ClassName="carousel-caption d-flex align-items-center justify-content-center">
-                    <div ClassName="p-5" style="width: 100%; max-width: 900px;">
+                    <div ClassName="p-5" style={{width:" 100%;", max:" 900px;"}}>
                         <h5 ClassName="text-primary text-uppercase mb-md-3">Sistema de Educação Continuada</h5>
                         <h1 ClassName="display-3 text-white mb-md-4">Uma Imersão no Conhecimento Eficaz</h1>
                     </div>

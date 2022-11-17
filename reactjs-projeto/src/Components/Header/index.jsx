@@ -1,5 +1,6 @@
 import React from "react";
 import {Link} from "react-router-dom";
+import Logo from "../../assets/img/logo.png";
   export default function Header(){
     return(
     <div className="container-fluid">
@@ -39,22 +40,22 @@ import {Link} from "react-router-dom";
                     </div>
                 </div>
                 <div className="navbar navbar-expand-lg bg-white navbar-light p-0">
-                    <a href="" className="navbar-brand d-block d-lg-none">
-                        <h1 className="m-0 display-4 text-primary"></h1>
-                    </a>
+                    <div className="navbar-brand d-block d-lg-none">
+                        <div className="m-0 display-4 text"></div>
+                    </div>
                     <button type="button" className="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div>
-                        <img src="./minhas-imagens/vetor/logo.png" width="150" height="150"/>
+                        <img src={Logo} width="150" height="150"alt= " logo"/>
                     </div>
                     <div className="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div className="navbar-nav mr-auto py-0">
                             
                             <Link to="/" className="nav-item nav-link active">Home</Link>
-                            <Link to="/QuemSomos" className="nav-item nav-link active"></Link>
-                           <Link to="/Metodologia" className="nav-item nav-link"></Link>
-                            <Link to="/Contato" className="nav-item nav-link"></Link>
+                            <Link to="/QuemSomos" className="nav-item nav-link active">QuemSomos</Link>
+                           <Link to="/Metodologia" className="nav-item nav-link">Metodologia</Link>
+                            <Link to="/Contato" className="nav-item nav-link">Contato</Link>
                            
                             
                 </div>
